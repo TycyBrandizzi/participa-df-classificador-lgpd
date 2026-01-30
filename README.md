@@ -64,3 +64,5 @@ A proposta foi pensada para futura evolução com:
 
 ### Alinhamento com o Desafio
 O foco deste projeto não foi criar mais um sistema, mas **resolver exatamente os gargalos reais do Participa DF**, promovendo uma participação social mais segura, transparente e confiável.
+
+Link do site: https://participa-df-classificador-lgpd.netlify.app/
