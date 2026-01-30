@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Participa DF Inteligente | Classificador LGPD</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="topo">
+    <div class="topo-conteudo">
+      <h1>Participa DF Inteligente</h1>
+      <p>Classificador automático de dados pessoais para Acesso à Informação</p>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section class="card introducao">
+      <h2>📄 Análise de Pedido</h2>
+      <p>
+        Esta ferramenta analisa pedidos de acesso à informação e identifica
+        automaticamente a presença de dados pessoais, auxiliando na conformidade
+        com a Lei Geral de Proteção de Dados (LGPD).
+      </p>
+    </section>
+
+    <section class="card analise">
+      <label for="pedidoTexto">Texto do pedido</label>
+      <textarea
+        id="pedidoTexto"
+        placeholder="Cole aqui o texto completo do pedido de acesso à informação..."
+      ></textarea>
+
+      <div class="acoes">
+        <button id="analisarBtn">🔍 Analisar pedido</button>
+        <button id="limparBtn" class="secundario">🧹 Limpar</button>
+      </div>
+    </section>
+
+    <section class="card resultado-card">
+      <h2>📊 Resultado da Análise</h2>
+      <div id="resultado" class="resultado neutro">
+        Nenhuma análise realizada ainda.
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="rodape">
+    <p>
+      MVP desenvolvido para o 1º Hackathon em Controle Social – Desafio Participa DF
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
